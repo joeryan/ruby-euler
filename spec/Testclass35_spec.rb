@@ -1,5 +1,3 @@
-require "spec_helper"
-
 class Testclass35; end
 
 describe Testclass35 do
