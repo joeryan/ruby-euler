@@ -14,14 +14,13 @@ class SumFibon
   def evenSum
     result = 0
     if self.terms >= 2
+      result = 2
       fib_series = [1,2]
       for i in 2...terms
         fib_series << (fib_series[i-2] + fib_series[i-1])
-      end
-    end
-    for fib in fib_series
-      if  fib % 2 == 0
-        result += fib
+        if fib_series[i]%2 == 0
+          result += fib_series[i]
+        end
       end
     end
     return result
