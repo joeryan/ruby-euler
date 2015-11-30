@@ -13,7 +13,7 @@ describe SumFibon do
   end
 
   it "should sum the first (4000000) even fibonacci numbers" do
-  #  summer = SumFibon.(:terms => 4000000)
-  #  summer.evenSum.should == 4613732
+  summer = SumFibon.new(:terms => 4000000)
+  summer.evenSum.should == 4613732
   end
 end

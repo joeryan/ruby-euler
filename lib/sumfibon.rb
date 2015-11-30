@@ -24,7 +24,6 @@ class SumFibon
         result += fib
       end
     end
-    print result, fib_series
     return result
   end
 
