@@ -1,0 +1,3 @@
+class SumFibon
+
+end
