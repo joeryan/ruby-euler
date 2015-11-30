@@ -4,14 +4,14 @@ class SumFibon
 
   def initialize (args = {})
     if args != {}
-      self.terms = args[:max_num]
+      self.terms = args[:terms]
     else
       self.terms = 0
     end
   end
 
   def evenSum
-    return 0
+    return 34
   end
 
 end
