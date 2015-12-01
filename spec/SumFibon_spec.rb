@@ -12,8 +12,8 @@ describe SumFibon do
     summer.evenSum.should == 44
   end
 
-  it "should sum the first (4000000) even fibonacci numbers" do
-  summer = SumFibon.new(:terms => 4000000)
+  it "should sum the even fibonacci numbers up to a max value of 4,000,000" do
+  summer = SumFibon.new(:terms => 4000000, :maxval => 4000000)
   summer.evenSum.should == 4613732
   end
 end
